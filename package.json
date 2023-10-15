@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "main": "./main.js",
+  "scripts": {
+    "dev": "tsc && node dist/main.js"
+  },
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.1.18",
+    "init": "^0.1.2",
+    "npm": "^10.2.0",
+    "open": "^9.1.0",
+    "selenium-webdriver": "^4.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
